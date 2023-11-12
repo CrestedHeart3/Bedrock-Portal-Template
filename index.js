@@ -6,7 +6,7 @@ const main = async () => {
     try { 
         const flow = new Authflow(); 
         const xbl = await flow.getXboxToken(); 
-        const auth = new Authflow(email, './auth2', { 
+        const auth = new Authflow(email, './', { 
             flow: 'live', 
             authTitle: Titles.MinecraftNintendoSwitch, 
             deviceType: 'Nintendo' 
