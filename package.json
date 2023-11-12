@@ -1,0 +1,15 @@
+{
+  "name": "friendconnect",
+  "version": "1.0.0",
+  "description": "Friendconnect",
+  "main": "index.js",
+  "dependencies": {
+    "bedrock-portal": "0.1.3",
+    "prismarine-auth": "2.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "CrestedHeart3",
+  "license": "MIT"
+}
