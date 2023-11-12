@@ -1,6 +1,16 @@
 const { BedrockPortal } = require('bedrock-portal'); 
 const { Authflow, Titles } = require('prismarine-auth'); 
-const {ip, port, title, description, memberCount, maxMemberCount, email} = require('./config.json'); 
+require('dotenv').config();
+
+const ip = process.env.ip;
+const port = process.env.port;
+const title = process.env.name;
+const description = process.env.description;
+const memberCount = process.env.memberCount;
+const maxMemberCount = process.env.maxMemberCount;
+const email = process.env.email;
+
+
 const main = async () => {
     console.log('Starting Process')
     try { 
