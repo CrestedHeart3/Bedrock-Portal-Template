@@ -8,7 +8,6 @@ const title = process.env.name;
 const description = process.env.description;
 const memberCount = process.env.memberCount;
 const maxMemberCount = process.env.maxMemberCount;
-const email = process.env.email;
 
 
 const main = async () => {
